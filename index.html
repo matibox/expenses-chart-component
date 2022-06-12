@@ -1,33 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles.css">
-  <title>Expenses chart component</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Expenses chart component</title>
 </head>
 <body>
 
-  My balance
-  $921.48
+    <div class="container">
+        <div class="overview">
+            <div class="balance-container">
+                <p class="balance-text">My balance</p>
+                <p class="balance"></p>
+            </div>
+            <div class="logo-container">
+                <div class="circle-bright"></div>
+                <div class="circle-dark"></div>
+            </div>
+        </div>
+        <div class="spending">
+            <h1 class="spending-heading">
+                Spending - Last 7 days
+            </h1>
+            <div class="graphs">
+                <div class="graph">
+                    <div class="day-spending"></div>
+                    <div class="tower"></div>
+                    <div class="weekday"></div>
+                </div>
+                <div class="graph">
+                    <div class="day-spending"></div>
+                    <div class="tower"></div>
+                    <div class="weekday"></div>
+                </div>
+                <div class="graph">
+                    <div class="day-spending"></div>
+                    <div class="tower"></div>
+                    <div class="weekday"></div>
+                </div>
+                <div class="graph">
+                    <div class="day-spending"></div>
+                    <div class="tower"></div>
+                    <div class="weekday"></div>
+                </div>
+                <div class="graph">
+                    <div class="day-spending"></div>
+                    <div class="tower"></div>
+                    <div class="weekday"></div>
+                </div>
+                <div class="graph">
+                    <div class="day-spending"></div>
+                    <div class="tower"></div>
+                    <div class="weekday"></div>
+                </div>
+                <div class="graph">
+                    <div class="day-spending"></div>
+                    <div class="tower"></div>
+                    <div class="weekday"></div>
+                </div>
+            </div>
+            <div class="summary">
+                <div class="total-container">
+                    <p class="total-text">
+                        Total this month
+                    </p>
+                    <p class="total-amount">
 
-  Spending - Last 7 days
+                    </p>
+                </div>
+                <div class="percentage-container">
+                    <p class="percentage"></p>
+                    <p class="percentage-text">
+                        from last month
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+    My balance
+    $921.48
 
-  Total this month
-  $478.33
+    Spending - Last 7 days
 
-  +2.4%
-  from last month
-  
+    mon
+    tue
+    wed
+    thu
+    fri
+    sat
+    sun
+
+    Total this month
+    $478.33
+
+    +2.4%
+    from last month
+    
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/matibox" target="_blank">Mateusz Hladky</a>.
