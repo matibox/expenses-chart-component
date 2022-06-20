@@ -130,7 +130,7 @@ body {
 }
 
 .tower {
-    --graph-height: 67%;
+    /*--graph-height: 67%;*/
     --graph-color: var(--soft-red);
     height: var(--graph-height);
     border-radius: 0.5rem;
