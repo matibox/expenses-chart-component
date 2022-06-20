@@ -155,6 +155,38 @@ body {
 
 .summary {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.total-container,
+.percentage-container {
+    font-size: 1.5rem;
+}
+
+.total-text {
+    color: var(--medium-brown);
+    font-size: 1em;
+}
+
+.total-amount {
+    color: var(--dark-brown);
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.percentage {
+    text-align: right;
+    color: var(--dark-brown);
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+.percentage-text {
+    text-align: right;
+    color: var(--medium-brown);
+    padding-bottom: 0.75rem;
 }
 
 .attribution {
@@ -165,6 +197,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
