@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;700&display=swap');
 
 :root {
     font-size: 10px;
@@ -42,7 +42,7 @@ body {
     background-color: var(--soft-red);
     color: var(--very-pale-orange);
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     padding: 2.5rem;
     display: flex;
     justify-content: space-between;
@@ -77,6 +77,83 @@ body {
     top: 0;
     left: 0;
     transform: translateX(-50%);
+}
+
+.spending {
+    background-color: var(--very-pale-orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+.spending-heading {
+    width: 100%;
+    font-size: 2.25rem;
+    color: var(--dark-brown);
+}
+
+.graphs {
+    width: 100%;
+    border-bottom: 1px solid var(--medium-brown);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 300px;
+    gap: 1rem;
+}
+
+.graph {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-block: 2rem;
+    width: 3.5rem;
+    gap: 1rem;
+}
+
+.day-spending {
+    padding: 5px;
+    background-color: var(--dark-brown);
+    color: #fff;
+    transition: all 0.2s ease;
+    opacity: 0;
+    order: -1;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.tower {
+    --graph-height: 67%;
+    --graph-color: var(--soft-red);
+    height: var(--graph-height);
+    border-radius: 0.5rem;
+    background-color: var(--graph-color);
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+.tower:hover {
+    filter: brightness(1.5);
+}
+
+.tower:hover + .day-spending {
+    opacity: 1;
+}
+
+.weekday {
+    margin-inline: auto;
+    color: var(--medium-brown);
+    font-size: 1.25rem;
+}
+
+.summary {
+    width: 100%;
 }
 
 .attribution {
