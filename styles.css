@@ -34,7 +34,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 35rem;
+    width: clamp(35rem, 50vw, 55rem);
     /*border: 1px solid red;*/
 }
 
@@ -114,7 +114,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    width: 3.5rem;
+    width: clamp(3.5rem, 5vw, 5rem);
     gap: 1rem;
 }
 
