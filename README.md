@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [mateuszhladky.netlify.app](https://mateuszhladky.netlify.app/expenses-chart-component)
+- [Solution](https://www.frontendmentor.io/solutions/expenses-chart-component-a2gHTo4WYk)
+- [Live Site](https://mateuszhladky.netlify.app/projects/expenses-chart-component)
 
 ## My process
 
